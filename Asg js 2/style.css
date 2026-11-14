@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.pack {
+  background: #0346fe;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.mine{
+  display:flex
+}
+.result{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.all{
+  display:flex;
+  justify-content: space-between;
+}

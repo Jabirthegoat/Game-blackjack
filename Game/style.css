@@ -1,0 +1,53 @@
+.all{
+    background-color: green;
+    width: 450px;
+    margin: 50px auto;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+        display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;     /* Center horizontally */
+    min-height: 70vh;       /* Take full screen height */
+    margin: 0;               /* Remove default browser margins */
+
+   
+}
+body{ 
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Takes up the full height of the screen */
+  background-color: #f0f0f0; /* Optional: adds a background color */
+
+}
+h1{
+    color: yellow;
+}
+button{
+    color: green; 
+    background: yellow;
+    width: 120px;
+  justify-content: center;
+  height: 55px;
+     display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers them horizontally */
+  gap: 10px;           /* Adds space between the buttons */
+  cursor: pointer;
+   padding: 10px;
+  margin: 0;               /* Removes default browser margins */
+
+}
+
+h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    margin-right: 15px;
+    padding: 25px 15px;
+}

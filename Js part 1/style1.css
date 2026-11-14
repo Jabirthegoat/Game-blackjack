@@ -1,0 +1,88 @@
+body{
+    background: (url(../img/BG\ Coding\ work.jpg))
+}
+
+
+.main{
+    background-image: url(../img/BG\ CODING.jpg);
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 550px;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin: 50px auto;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    color: white;
+    background-color: hsl(0, 100%, 50%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        width: 250px;
+    text-align: center;
+}
+.btn1{
+   color: white;
+    background-color: hwb(204 0% 8%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+      margin-left: -20px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  margin-left: -20px;
+      
+
+}
+.btn2{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+      margin-left: -20px;
+}
+.mine{ 
+       display: flex;
+    flex-direction: column;
+     margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.btn3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+p{
+    color: #ff0000;
+}
+@media (max-width: 600px) {
+    .main {
+        width: 90%;
+        height: auto;
+    }
+}
